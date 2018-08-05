@@ -20,7 +20,7 @@ if len(sys.argv) < 2:
     print('''Usage : python3 password_box.py [account]-copy account password
         if you want to add the password,please enter "add",if you enter nothing,the system will exit''')
     # 提示是否需要退出或增加新的账号密码
-    
+
     key_input = input('''what's your command?\n''')
     if key_input == 'add':
         print('''you are adding the account and the password''')
